@@ -7,7 +7,7 @@
     div.style.height = '10px';
     div.style.position = 'absolute';
     div.style.top = '0%';
-    div.style.left = '0%';
+    div.style.left = '10%';
     div.style.transform = 'translate(-50%, 0)';
 
     document.body.appendChild(div);
