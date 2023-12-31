@@ -4,7 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="test_export.js"></script>
+    <script src="https://siaqav4.signalsresearch-dev.revvitycloud.net/authIDP/js/uikit-icons-min.js"></script>
+    <script>
+          
+          window.addEventListener('load',function(){
+            var div = document.createElement('div');
+            // Step 2: Set the styling for the div
+            div.style.backgroundColor = '#0000ff11';
+            div.style.height = '10px';
+            div.style.position = 'absolute';
+            div.style.top = '0%';
+            div.style.left = '10%';
+            div.style.transform = 'translate(-50%, 0)';
+            if(UIkitIcons){
+                div.innerText = "UIkitIcons loaded ";
+            }
+            document.body.appendChild(div);
+        })
+    </script>
 </head>
 <body>
     Hi
